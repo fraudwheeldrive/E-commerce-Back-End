@@ -63,7 +63,7 @@ This app was built with:
 * dotenv
 
 
-with reference from Mozilla Developer Network, NPM and Node documentation and w3 schools.
+##references:
 
 * https://sequelize.org/master/manual/model-querying-basics.html
 * https://www.joomlashack.com/blog/how-tos/development/fixing-error-1045/#:~:text=%231045%20Access%20Denied%20for%20user,you%20provided%20a%20wrong%20password.
