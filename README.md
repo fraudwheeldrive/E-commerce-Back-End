@@ -31,11 +31,11 @@ once database is built start your server using the following command
 once the server is live then you can Cycle through CRUD options via Insomnia Core / postman. 
 
 The api endpoints are as follows:
-*Categories:
+* Categories:
 http://localhost:3001/api/categories
-*Tags
+* Tags
 http://localhost:3001/api/tags
-*Products 
+* Products 
 http://localhost:3001/api/products 
 
 
@@ -65,11 +65,11 @@ This app was built with:
 
 with reference from Mozilla Developer Network, NPM and Node documentation and w3 schools.
 
-*https://sequelize.org/master/manual/model-querying-basics.html
-*https://www.joomlashack.com/blog/how-tos/development/fixing-error-1045/#:~:text=%231045%20Access%20Denied%20for%20user,you%20provided%20a%20wrong%20password.
-*https://www.npmjs.com/package/dotenv
-*https://www.geeksforgeeks.org/express-js-req-params-property/
-*https://www.codecademy.com/articles/what-is-crud
+* https://sequelize.org/master/manual/model-querying-basics.html
+* https://www.joomlashack.com/blog/how-tos/development/fixing-error-1045/#:~:text=%231045%20Access%20Denied%20for%20user,you%20provided%20a%20wrong%20password.
+* https://www.npmjs.com/package/dotenv
+* https://www.geeksforgeeks.org/express-js-req-params-property/
+* https://www.codecademy.com/articles/what-is-crud
 
 
 
