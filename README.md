@@ -1,131 +1,68 @@
 # E-commerce-Back-End
-Object-Relational Mapping (ORM) Challenge:
+Object-Relational Mapping (ORM) Challenge: A interactive E-Commerce back end utlizing Object-Relational Mapping as power be Sequelize
+
+
 #User Story
 AS A manager at an internet retail company
-I WANT a back end for my e-commerce website that uses the latest technologies
-SO THAT my company can compete with other e-commerce companies
+`I WANT a back end for my e-commerce website that uses the latest technologies
+SO THAT my company can compete with other e-commerce companies`
 
-#Acceptance Criteria
-GIVEN a functional Express.js API
-WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
-THEN I am able to connect to a database using Sequelize
-WHEN I enter schema and seed commands
-THEN a development database is created and is seeded with test data
-WHEN I enter the command to invoke the application
-THEN my server is started and the Sequelize models are synced to the MySQL database
-WHEN I open API GET routes in Insomnia Core for categories, products, or tags
-THEN the data for each of these routes is displayed in a formatted JSON
-WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
-THEN I am able to successfully create, update, and delete data in my database
-Mock-Up
-#Database Models
-Your database should contain the following four models, including the requirements listed for each model:
+## Github User Name
+Fraudwheeldrive
 
-Category
+## Installation
+please ensure you have the required NPM modules and MySQL installed installed locally 
+clone this repo and install npm modules using following commands. 
+Ensure your SQL Database is running 
 
-id
+via commandline:
+`mysql -u root -p` 
+when prompted enter your password 
+then exit by typing 
+`quit`
 
-Integer
+to run the application we need to first seed the database use the following command via gitbash Commandline:
+`npm run seed`
+this will build the databases we will be manipulating. 
 
-Doesn't allow null values
+once database is built start your server using the following command 
+`npm start`  
 
-Set as primary key
+once the server is large then you can Cycle through CRUD options via Insomnia Core / postman. 
 
-Uses auto increment
 
-category_name
+## demonstration
 
-String
+This is how the command line application looks
 
-Doesn't allow null values
+![alt text](https://github.com/fraudwheeldrive/Employee-Tracker/blob/main/assets/images/Employee%20Tracker%20screen.PNG)
 
-Product
+Please refer to video below to see it in action
 
-id
+https://drive.google.com/file/d/1DgYOmNSl7MLAm96moOye8k69gGeSBh3t/view
 
-Integer
 
-Doesn't allow null values
+## Contributing
+ ensure a pull request made before merging 
 
-Set as primary key
 
-Uses auto increment
+## Credits
+This app was built with:
+* Javascript 
+* node.js 
+* Inquirer 
+* mysql 
 
-product_name
 
-String
+with reference from Mozilla Developer Network, NPM and Node documentation and w3 schools.
 
-Doesn't allow null values
+* https://dev.mysql.com/doc/refman/8.0/en/
+* https://www.w3schools.com/sql/sql_join.asp
+* https://www.w3schools.com/js/js_switch.asp
+* https://www.npmjs.com/package/inquirer
 
-price
+## License
+MIT
 
-Decimal
-
-Doesn't allow null values
-
-Validates that the value is a decimal
-
-stock
-
-Integer
-
-Doesn't allow null values
-
-Set a default value of 10
-
-Validates that the value is numeric
-
-category_id
-
-Integer
-
-References the category model's id
-
-Tag
-
-id
-
-Integer
-
-Doesn't allow null values
-
-Set as primary key
-
-Uses auto increment
-
-tag_name
-
-String
-
-ProductTag
-
-id
-
-Integer
-
-Doesn't allow null values
-
-Set as primary key
-
-Uses auto increment
-
-product_id
-
-Integer
-
-References the product model's id
-
-tag_id
-
-Integer
-
-References the tag model's id
-
-#Associations
-Product belongs to Category, as a category can have multiple products but a product can only belong to one category.
-
-Category has many Product models.
-
-Product belongs to many Tag models. Using the ProductTag through model, allow products to have multiple tags and tags to have many products.
 
 
