@@ -49,17 +49,21 @@ https://drive.google.com/file/d/1DgYOmNSl7MLAm96moOye8k69gGeSBh3t/view
 ## Credits
 This app was built with:
 * Javascript 
-* node.js 
-* Inquirer 
-* mysql 
+* express 
+* Sequelize
+* mysql2 
+* dotenv
 
 
 with reference from Mozilla Developer Network, NPM and Node documentation and w3 schools.
 
-* https://dev.mysql.com/doc/refman/8.0/en/
-* https://www.w3schools.com/sql/sql_join.asp
-* https://www.w3schools.com/js/js_switch.asp
-* https://www.npmjs.com/package/inquirer
+*https://sequelize.org/master/manual/model-querying-basics.html
+*https://www.joomlashack.com/blog/how-tos/development/fixing-error-1045/#:~:text=%231045%20Access%20Denied%20for%20user,you%20provided%20a%20wrong%20password.
+*https://www.npmjs.com/package/dotenv
+*https://www.geeksforgeeks.org/express-js-req-params-property/
+*https://www.codecademy.com/articles/what-is-crud
+
+
 
 ## License
 MIT
