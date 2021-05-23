@@ -28,14 +28,22 @@ this will build the databases we will be manipulating.
 once database is built start your server using the following command 
 `npm start`  
 
-once the server is large then you can Cycle through CRUD options via Insomnia Core / postman. 
+once the server is live then you can Cycle through CRUD options via Insomnia Core / postman. 
+
+The api endpoints are as follows:
+*Categories:
+http://localhost:3001/api/categories
+*Tags
+http://localhost:3001/api/tags
+*Products 
+http://localhost:3001/api/products 
 
 
 ## demonstration
 
 This is how the command line application looks
 
-![alt text](https://github.com/fraudwheeldrive/Employee-Tracker/blob/main/assets/images/Employee%20Tracker%20screen.PNG)
+![alt text](https://github.com/fraudwheeldrive/E-commerce-Back-End/blob/main/assets/images/orm-example.PNG)
 
 Please refer to video below to see it in action
 
