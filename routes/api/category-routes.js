@@ -14,10 +14,16 @@ router.get('/', (req, res) => {
       attributes: ['id', 'product_name', 'price' , 'stock' , 'category_id']
     }
   })
-  .then(dbUserData => res.json(dbUserData))
+  .then(dbCatData => {
+    if(!dbCatData) {
+      res.status(404).json({message: 'No Categories found'});
+      return;
+    }
+    res.json(dbCatData);
+  })
   .catch(err => {
     console.log(err);
-    res.status(500).json(err);
+    res.status(500).json(err)
   });
 });
 
