@@ -47,7 +47,7 @@ This is how the command line application looks
 
 Please refer to video below to see it in action
 
-https://drive.google.com/file/d/1DgYOmNSl7MLAm96moOye8k69gGeSBh3t/view
+https://drive.google.com/file/d/12FlXjrBg49uWwE_e4SY9R1AFok2Ss4eO/view
 
 
 ## Contributing
